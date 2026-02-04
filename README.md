@@ -1,4 +1,4 @@
-# SaaS User Activation Model
+# User Activation Model
 
 **Logistic Regression** | Key Behaviors for Subscription
 
