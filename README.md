@@ -16,8 +16,8 @@ The goal of this analysis was to identify the specific product milestones or eve
 
 ### Key Findings
 Early momentum matters most:
-- Setting up an integration within 14 days (+0.76) and booking a second meeting within the first week (+0.54) are clear winners for activation.
-- High meeting volume in the first 30 days (**meetings_in_30d**) is the strongest overall signal (**+0.93**)
+- Setting up an integration within 14 days (**+0.76**) and booking a second meeting within the first week (**+0.54**) are clear winners for activation.
+- High meeting volume in the first 30 days is the strongest overall signal (**+0.93**)
 
 ### Business Questions Answered
 1. What separates activated users from drop-offs?  
