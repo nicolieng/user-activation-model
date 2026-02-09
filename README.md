@@ -6,8 +6,7 @@ Analyzed user events from a leading scheduling SaaS platform to uncover what dri
 
 ### Key Findings
 Early momentum matters most:
-- Users who book a **second meeting within 7 days** are **+0.54** more likely to subscribe  
-- Integration setup **within 14 days** strongly predicts subscription (**+0.76**)  
+- Setting up an integration within 14 days (+0.76) and booking a second meeting within the first week (+0.54) are clear winners for activation.
 - High meeting volume in the first 30 days (**meetings_in_30d**) is the strongest overall signal (**+0.93**)
 
 ### Business Questions Answered
@@ -26,7 +25,7 @@ Early momentum matters most:
 ### Results Summary
 | Predictor                     | Coefficient | Interpretation                              |
 |-------------------------------|-------------|---------------------------------------------|
-| first_meeting_within_7d       | -0.17       | Slightly negative (possible collinearity)   |
+| first_meeting_within_7d       | -0.17       | Slightly negative (possible collinearity?)   |
 | second_meeting_within_7d      | +0.54       | Strong early momentum signal                |
 | three_meetings_30d            | -0.90       | Likely collinear with total meetings        |
 | integration_within_14d        | +0.76       | Fast integration = big subscription lift    |
