@@ -1,6 +1,6 @@
 # User Activation Model
 
-**Logistic Regression** | Key Behaviors for Subscription
+**Logistic Regression** 
 
 Analyzed user events from a leading scheduling SaaS platform to uncover what drives activation, engagement, and subscriptions.
 
