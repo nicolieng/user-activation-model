@@ -1,8 +1,18 @@
-# User Activation Model
+# Predicting SaaS Subscription via User Activation
 
-**Logistic Regression** 
+### Executive Summary 
+The goal of this analysis was to identify the specific product milestones or events that drive activation and predicts engagement. By quantifying the impact of early user behavior, I provided the sales and product teams with a data-driven framework for lead prioritization.
 
-Analyzed user events from a leading scheduling SaaS platform to uncover what drives activation, engagement, and subscriptions.
+### Methodology
+
+- Data Modeling & Schema Design: Transformed 600K+ raw event logs into a user-level schema. This involved defining unique user entities, mapping event-to-user relationships, and creating snapshot tables to capture temporal behavior.
+
+- Feature Engineering: Derived high-signal predictors from the structured data, including cumulative engagement metrics, time-to-first-action durations, and binary flags for critical onboarding milestones.
+
+- Statistical Modeling: Built a Logistic Regression model (AUC ~0.82) to calculate the probability of conversion.
+
+- Validation: Used Variance Inflation Factor (VIF) to check for multicollinearity, ensuring that each coefficient accurately represented a distinct business lever.
+
 
 ### Key Findings
 Early momentum matters most:
