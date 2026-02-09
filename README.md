@@ -35,7 +35,7 @@ Early momentum matters most:
 ### Results Summary
 | Predictor                     | Coefficient | Interpretation                              |
 |-------------------------------|-------------|---------------------------------------------|
-| first_meeting_within_7d       | -0.17       | Slightly negative (possible collinearity?)   |
+| first_meeting_within_7d       | -0.17       | Slightly negative (possible collinearity?)  |
 | second_meeting_within_7d      | +0.54       | Strong early momentum signal                |
 | three_meetings_30d            | -0.90       | Likely collinear with total meetings        |
 | integration_within_14d        | +0.76       | Fast integration = big subscription lift    |
