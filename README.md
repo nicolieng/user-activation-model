@@ -1,4 +1,4 @@
-# Predicting User Activation: Early Behaviors and Logistic Regression Insights
+# Predicting User Subscription: Early Behaviors and Logistic Regression Insights
 
 ### Executive Summary 
 The goal of this analysis was to identify the specific product milestones or events that drive activation and predicts engagement. By quantifying the impact of early user behavior, I provided the sales and product teams with a data-driven framework for lead prioritization.
